@@ -1,0 +1,31 @@
+body{
+    background-color:pink
+}
+.container-fluid{
+    display: flex;
+}
+.section-list{
+    flex:2.2;
+    text-align: center;
+    border: 1px solid rgb(146, 23, 109);
+    background-image: url(sky.jpg);
+    height: 480px;
+    margin-inline-end: 30px;
+    margin-top: 30px;
+    }
+
+h3{
+    padding-top:15px;
+    color: rgb(146, 23, 109);
+    font-style: italic;
+}
+ .section-form{
+    flex:2;
+    margin-top: 30px;
+}
+
+#important{
+    font: size 35px;
+    color:rgb(146, 23, 109);
+    cursor:pointer;
+}
